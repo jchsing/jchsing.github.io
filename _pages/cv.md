@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-redirect: /assets/pdf/ramen_blue.pdf
+redirect: /assets/pdf/jhsing_cv_1024.pdf
 newtab: true
 ---
