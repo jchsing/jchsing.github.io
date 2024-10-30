@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications by categories in reversed chronological order
+description: (*) denotes equal contribution
 nav: true
 nav_order: 3
 sections: 
@@ -15,8 +15,6 @@ sections:
 ---
 
 <!-- _pages/publications.md -->
-*equal contribution
-
 <div class="publications">
     {%- for section in page.sections %}
         <a id="{{section.text}}"></a>
