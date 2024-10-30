@@ -5,7 +5,7 @@ permalink: /projects/
 description: check out my creative side
 nav: true
 nav_order: 4
-display_categories: []
+display_categories: [fun]
 horizontal: false
 ---
 

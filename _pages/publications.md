@@ -7,10 +7,10 @@ nav: true
 nav_order: 3
 sections: 
   - bibquery: "@article"
-    type: "peer-reviewed"
-    text: "peer-reviewed articles"
-  - bibquery: "@issue"
-    type: "special issues"
+    type: "journal article"
+    text: "journal articles"
+  - bibquery: "@article"
+    type: "special issue"
     text: "special issues"
 ---
 

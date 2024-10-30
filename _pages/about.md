@@ -18,6 +18,6 @@ Hi! I’m a **PhD student** in Epidemiology and Population Health at Stanford, c
 
 As an **amateur artist and information designer**, I’m passionate about making health data more accessible to the public through effective science communication and visual storytelling—especially for low-income and marginalized communities. You’ll often find me at [Stanford’s d.school](https://dschool.stanford.edu/), experimenting with ways to blend science, design, and printmaking.
 
-**Outside of lab**, I'm usually climbing 🧗🏻‍♀️, crocheting 🧶, playing music 🎻, or spending quality time with friends and family 🕰️.
+**Outside of lab**, I'm usually climbing 🧗🏻‍♀️, crocheting 🧶, playing music 🎻, or spending quality time 🕰️ with friends and family.
 
 Feel free to reach out at **jchsing [at] stanford [dot] edu**, or connect with me on [linkedin](https://www.linkedin.com/in/julianna-hsing/) or [github](https://github.com/jchsing)
