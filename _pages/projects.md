@@ -2,10 +2,10 @@
 layout: page
 title: design projects
 permalink: /projects/
-description: check out some of my cool design projects
+description: check out some of my projects
 nav: true
 nav_order: 4
-display_categories: [wellforlife, print, dod]
+display_categories: []
 horizontal: false
 ---
 
