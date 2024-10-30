@@ -20,6 +20,6 @@ Hi! I’m a <font color="#009f06">PhD student</font> in Epidemiology and Populat
 
 As an <font color="#009f06">artist and information designer</font>, I’m dedicated to making health data more accessible to the public through effective science communication and visual storytelling—especially for low-income and marginalized communities. You’ll often find me at Stanford’s d.school, experimenting with ways to blend science, design, and print.
 
-<font color="#009f06">Outside of lab,</font>, I'm usually climbing 🧗🏻‍♀️, making music 🎶, or spending quality time with friends and family .
+Outside of lab, I'm usually climbing 🧗🏻‍♀️, making music 🎶, or spending quality time with friends and family .
 
 Feel free to reach out at <font color="#009f06">jchsing [at] stanford [dot] edu</font>, or connect with me on [linkedin](https://www.linkedin.com/in/julianna-hsing/) or [github](https://github.com/jchsing)
