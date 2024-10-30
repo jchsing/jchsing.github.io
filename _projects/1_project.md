@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Your Guide to Better Well-being
-description: Stanford WELL for Life
+title: 
+description: Your Guide to Better Well-being
 img: assets/img/Self care.png
 importance: 1
 category: Stanford WELL for Life
+related_publications: false
 ---
 
 
