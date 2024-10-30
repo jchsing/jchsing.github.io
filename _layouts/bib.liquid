@@ -47,7 +47,7 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    {%- if entry.type == "peer-reviewed" or entry.type == "special issues" -%}
+    {%- if entry.type == "jorunal article" or entry.type == "special issues" -%}
           <a href="{{ entry.url }}" class="title">{{entry.title}}</a>
         {%- else -%}
           <b class="title">{{entry.title}}</b>
