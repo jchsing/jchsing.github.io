@@ -2,7 +2,7 @@
 layout: page
 title: design projects
 permalink: /projects/
-description: check out some of my projects
+description: check out my creative side
 nav: true
 nav_order: 4
 display_categories: []
