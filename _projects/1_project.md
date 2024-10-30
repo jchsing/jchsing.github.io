@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: WELL for Life
+description: Your Guide to Better Well-being
+img: assets/img/self care.png
 importance: 1
-category: work
+category: wellforlife
 related_publications: true
 ---
 

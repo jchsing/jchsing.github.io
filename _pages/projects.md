@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: design projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: check out some of my cool design projects
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [wellforlife, print, dod]
 horizontal: false
 ---
 
