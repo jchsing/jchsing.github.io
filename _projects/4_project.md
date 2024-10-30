@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Visual Resume
+description: a bit more about me!
 img:
 importance: 3
-category: fun
+category: d.school projects
 ---
 
 Every project has a beautiful feature showcase page.

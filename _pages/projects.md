@@ -2,7 +2,7 @@
 layout: page
 title: design projects
 permalink: /projects/
-description: check out my creative side
+description: creative projects i've been fortunate to be a part of
 nav: true
 nav_order: 4
 display_categories: [Stanford WELL for Life, d.school projects]
