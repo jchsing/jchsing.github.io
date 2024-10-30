@@ -4,7 +4,7 @@ title: WELL for Life
 description: Your Guide to Better Well-being
 img: assets/img/self care.png
 importance: 1
-category: wellforlife
+category: Stanford WELL for Life
 related_publications: true
 ---
 
