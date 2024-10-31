@@ -1,24 +1,19 @@
 ---
 layout: page
 title: Visual Resume
-description: a bit more about me!
+description: visualizing my academic and career journey through a data-driven story
 img:
 importance: 3
 category: d.school projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Traditional résumés and CVs are meant to summarize a person’s professional journey as concisely as possible, leaning heavily on formulaic bullet points and flattened forms. While this approach to building and writing a resume is often necessary and valuable,
+there is a lot of uncharted territory when it comes to the creative expression of your journey, your interests, and the multi-dimensional form of your unique story.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Challenge:** Visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+#### idea sketching
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
