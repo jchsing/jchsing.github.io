@@ -3,7 +3,7 @@ layout: page
 title: visual resume
 description: visualizing my academic and career journey through a data-driven story
 img: assets/img/visual_resume_photo copy.png
-importance: 3
+importance: 1
 category: d.school projects
 ---
 

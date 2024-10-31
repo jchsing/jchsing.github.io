@@ -2,7 +2,7 @@
 layout: page
 title: other infographics
 description: happy chemicals, sun psa, mindfulness, hope, spring flowers
-img: assets/img/4.jpg
+img: assets/img/infographic.jpg
 importance: 1
 category: work
 ---

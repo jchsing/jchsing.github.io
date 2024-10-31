@@ -2,8 +2,8 @@
 layout: page
 title: other infographics
 description: happy chemicals, sun psa, mindfulness, hope, spring flowers
-img: assets/img/4.jpg
-importance: 4
+img: assets/img/infographic.jpg
+importance: 3
 category: stanford medicine
 ---
 a collection of other infographics i have worked on over the years
