@@ -9,9 +9,6 @@ sections:
   - bibquery: "@article"
     type: "journal article"
     text: "journal articles"
-  - bibquery: "@article"
-    type: "special issue"
-    text: "special issues"
 ---
 
 <!-- _pages/publications.md -->

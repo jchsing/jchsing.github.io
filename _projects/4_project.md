@@ -19,7 +19,7 @@ category: d.school projects
         {% include figure.liquid loading="eager" path="assets/img/dp1_idea1.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp1_idea2.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp1_sfd.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp1_idea3.png" title="idea_sketching_3" class="img-fluid rounded z-depth-1" %}
@@ -39,16 +39,6 @@ I also tried to think about what were some good metaphors that could represent m
     </div>
 </div>
 <br>
-#### first draft
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp1_sfd.png" title="shitty first draft" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Not bad, but doesn't quite feel like a resume yet...
-</div>
-
 Striking a balance between artistic design, quantitative clarity, and a professional résumé format was challenging. Defining key categories early on guided my process and helped shape the final product. Here’s how it turned out.
 <br>
 #### final draft
