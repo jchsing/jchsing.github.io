@@ -7,57 +7,62 @@ importance: 3
 category: d.school projects
 ---
 
-Traditional résumés and CVs are meant to summarize a person’s professional journey as concisely as possible, leaning heavily on formulaic bullet points and flattened forms. While this approach to building and writing a resume is often necessary and valuable,
-there is a lot of uncharted territory when it comes to the creative expression of your journey, your interests, and the multi-dimensional form of your unique story.
+**background:** traditional résumés and CVs are meant to summarize a person’s professional journey as concisely as possible, leaning heavily on formulaic bullet points and flattened forms. While this approach to building and writing a resume is often necessary and valuable, there is a lot of uncharted territory when it comes to the creative expression of your journey, your interests, and the multi-dimensional form of your unique story.
 
-**Challenge:** Visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
+**goal:** visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
 
 #### idea sketching
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp1_idea1.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp1_idea2.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp1_idea3.png" title="idea_sketching_3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: I'm jotting down all major academic events that occured from 2012-2024. I'm also including potential axes and themes I might want to explore. Middle: I'm now plotting these points on a timeline and adding my personal and emotional thoughts and feelings during each time period. Right: Since this is still meant to be a resume, I'm writing down the key categories and components I want to put in the visual resume.
 </div>
+
+I also tried to think about what were some good metaphors that could represent my journey. Here are some that I came up with...
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp1_meta1.png" title="idea_metaphor_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp1_meta2.png" title="idea_metaphor_2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp1_meta3.png" title="idea_metaphor_3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+#### first draft
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp1_sfd.png" title="shitty first draft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Not bad, but doesn't quite feel like a resume yet...
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+I struggled finding a balance between creating art, drawing a boring graph, and coming up with a resume. I kept in mind what categories I wanted in the resume, and these became my guiding compass. This is what the final product looked like. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+#### final draft
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp1_visual_resume.jpg" title="final draft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    (c) 2024 Julianna Hsing
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
 {% raw %}
 
