@@ -2,7 +2,7 @@
 layout: page
 title: visual resume
 description: visualizing my academic and career journey through a data-driven story
-img:
+img: assets/img/visual_resume_photo.png
 importance: 3
 category: d.school projects
 ---
@@ -41,7 +41,8 @@ I also tried to think about what were some good metaphors that could represent m
 <br>
 Striking a balance between artistic design, quantitative clarity, and a professional résumé format was challenging. Defining key categories early on guided my process and helped shape the final product. Here’s how it turned out.
 <br>
-#### final draft
+
+#### final version
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp1_visual_resume.jpg" title="final draft" class="img-fluid rounded z-depth-1" %}
