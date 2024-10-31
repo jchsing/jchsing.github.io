@@ -2,10 +2,9 @@
 layout: page
 title: WELL for Life
 description: your guide to better well-being
-img: assets/img/Well curation cover illustration.png
+img: assets/img/Well curation cover illustration copy.png
 importance: 1
 category: stanford
-related_publications: false
 ---
 <!-- Embed Issuu Flipbook -->
 <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%">

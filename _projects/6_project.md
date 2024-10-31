@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ramen riso
-description: my first riso print attempt
+title: ramen is my happy place
+description: my first riso print 
 img: assets/img/riso_photo.png
 importance: 4
 category: d.school projects
