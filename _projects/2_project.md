@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MOSAAIC Cohort
+title: MOSAAIC cohort
 description: infographic for anniversary celebration dinner
 img: assets/img/mosaaic_logo.png
 importance: 2
