@@ -7,7 +7,7 @@ importance: 2
 category: d.school projects
 ---
 
-**what does 'ramen is my happy place' mean?** This print celebrates the little joys in life—like a hot bowl of ramen—that bring us comfort and happiness. There’s something magical in the ritual of slurping noodles, savoring rich broth, and picking out each topping, offering a mini escape from the world. May ramen always be a source of warmth and joy!
+**what does 'ramen is my happy place' mean?** There’s something magical in the ritual of slurping noodles, savoring rich broth, and picking out each topping, offering a mini escape from the world. This print celebrates the joy and comfort ramen brings to so many people around the world. May it be a reminder to remember to enjoy the little things in life!
 
 **what is riso?** risograph printing is a unique, eco-friendly printing process that originated in Japan in the 1980s. It’s known for its vibrant colors, grainy textures, and stencil-like effects, which make it popular for art prints, zines, posters, and other creative projects.
 

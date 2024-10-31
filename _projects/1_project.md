@@ -7,6 +7,7 @@ importance: 1
 category: stanford medicine
 ---
 layout design by: julianna hsing
+<br>
 illustrations by: [jan buchczik](https://www.buchczik.com/) and julianna hsing
 
 <!-- Embed Issuu Flipbook -->
