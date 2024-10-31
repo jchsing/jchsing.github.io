@@ -2,7 +2,7 @@
 layout: page
 title: ramen riso
 description: my first riso print attempt
-img:/assets/img/riso_photo.png
+img: assets/img/riso_photo.png
 importance: 4
 category: d.school projects
 ---
