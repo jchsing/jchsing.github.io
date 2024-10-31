@@ -3,8 +3,8 @@ layout: page
 title: other infographics
 description: happy chemicals, sun psa, mindfulness, hope, spring flowers
 img: assets/img/4.jpg
-importance: 1
-category: stanford
+importance: 4
+category: stanford medicine
 ---
 a collection of other infographics i have worked on over the years
 
@@ -28,10 +28,10 @@ a collection of other infographics i have worked on over the years
 #### mindfulness
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/other_mindfulness_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_mindful_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/other_mindfulness_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_mindful_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

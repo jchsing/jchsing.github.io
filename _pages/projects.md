@@ -5,7 +5,7 @@ permalink: /projects/
 description: creative projects i've been fortunate to be a part of
 nav: true
 nav_order: 4
-display_categories: [stanford, d.school projects]
+display_categories: [stanford medicine, d.school projects]
 horizontal: false
 ---
 

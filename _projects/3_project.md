@@ -4,7 +4,7 @@ title: well-being infographics
 description: ehnance your well-being every time you read
 img: assets/img/7.jpg
 importance: 3
-category: stanford
+category: stanford medicine
 ---
 
 
