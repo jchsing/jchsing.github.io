@@ -1,13 +1,11 @@
 ---
 layout: page
 title: other infographics
-description: happy chemicals, sun psa, mindfulness, hope, spring flowers
+description: a collection of other infographics i have worked on over the years
 img: assets/img/infographic.jpg
 importance: 3
 category: stanford medicine
 ---
-a collection of other infographics i have worked on over the years
-
 #### happy chemicals
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

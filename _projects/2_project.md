@@ -22,5 +22,5 @@ the study will take place at six research institutions — the Fred Hutchinson C
     </div>
 </div>
 <div class="caption">
-    (c) 2024 Julianna Hsing)
+    (c) 2024 Julianna Hsing
 </div>
