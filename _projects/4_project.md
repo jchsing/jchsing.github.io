@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visual Resume
+title: visual resume
 description: visualizing my academic and career journey through a data-driven story
 img:
 importance: 3
@@ -25,9 +25,6 @@ category: d.school projects
         {% include figure.liquid loading="eager" path="assets/img/dp1_idea3.png" title="idea_sketching_3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Left: I'm jotting down all major academic events that occured from 2012-2024. I'm also including potential axes and themes I might want to explore. Middle: I'm now plotting these points on a timeline and adding my personal and emotional thoughts and feelings during each time period. Right: Since this is still meant to be a resume, I'm writing down the key categories and components I want to put in the visual resume.
-</div>
 
 I also tried to think about what were some good metaphors that could represent my journey. Here are some that I came up with...
 <div class="row">
@@ -41,7 +38,7 @@ I also tried to think about what were some good metaphors that could represent m
         {% include figure.liquid loading="eager" path="assets/img/dp1_meta3.png" title="idea_metaphor_3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<br>
 #### first draft
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -52,8 +49,8 @@ I also tried to think about what were some good metaphors that could represent m
     Not bad, but doesn't quite feel like a resume yet...
 </div>
 
-I struggled finding a balance between creating art, drawing a boring graph, and coming up with a resume. I kept in mind what categories I wanted in the resume, and these became my guiding compass. This is what the final product looked like. 
-
+Striking a balance between artistic design, quantitative clarity, and a professional résumé format was challenging. Defining key categories early on guided my process and helped shape the final product. Here’s how it turned out.
+<br>
 #### final draft
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -63,18 +60,3 @@ I struggled finding a balance between creating art, drawing a boring graph, and 
 <div class="caption">
     (c) 2024 Julianna Hsing
 </div>
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
