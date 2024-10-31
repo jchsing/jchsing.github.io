@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MOSAAIC Cohort
-description: anniversary celebration dinner progress update
+description: infographic for anniversary celebration dinner
 img: assets/img/mosaaic_logo.png
 importance: 2
 category: stanford
