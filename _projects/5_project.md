@@ -1,7 +1,7 @@
 ---
 layout: page
-title: other infographics
-description: a collection of other infographics i have worked on over the years
+title: other works
+description: a selection of infographics i have worked on over the years
 img: assets/img/infographic.jpg
 importance: 3
 category: stanford medicine

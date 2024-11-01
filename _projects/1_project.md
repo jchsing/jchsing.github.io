@@ -6,9 +6,10 @@ img: assets/img/well_flower2.png
 importance: 1
 category: stanford medicine
 ---
-**layout design:** julianna hsing
-
+**layout design:** julianna hsing<br>
 **illustrations:** [jan buchczik](https://www.buchczik.com/) and julianna hsing
+
+_click the bottom right corner to view in fullscreen._
 
 <!-- Embed Issuu Flipbook -->
 <div style="position:relative;padding-top:max(60%,326px);height:0;width:100%">

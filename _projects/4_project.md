@@ -49,5 +49,5 @@ Striking a balance between artistic design, quantitative clarity, and a professi
     </div>
 </div>
 <div class="caption">
-    (c) 2024 Julianna Hsing
+    (c) 2024 Julianna Hsing | project from DESIGN 255: design of data
 </div>
