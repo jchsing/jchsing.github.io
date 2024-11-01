@@ -3,7 +3,7 @@ layout: page
 title: ramen riso
 description: my first risograph print | "ramen is my happly place"
 img: assets/img/riso_photo.png
-importance: 2
+importance: 3
 category: d.school projects
 ---
 

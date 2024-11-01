@@ -9,7 +9,7 @@ category: d.school projects
 
 **background:** traditional résumés and CVs are meant to summarize a person’s professional journey as concisely as possible, leaning heavily on formulaic bullet points and flattened forms. While this approach to building and writing a resume is often necessary and valuable, there is a lot of uncharted territory when it comes to the creative expression of your journey, your interests, and the multi-dimensional form of your unique story.
 
-**goal:** visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
+**purpose:** to visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
 
 #### **idea sketching**
 

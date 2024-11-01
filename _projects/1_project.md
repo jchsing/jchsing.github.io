@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WELL for Life
+title: well for life
 description: your guide to better well-being
 img: assets/img/well_flower2.png
 importance: 1

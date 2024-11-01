@@ -1,34 +1,48 @@
 ---
 layout: page
-title: well-being infographics
-description: ehnance your well-being every time you read
-img: assets/img/7.jpg
+title: other works
+description: a selection of infographics i have worked on over the years
+img: assets/img/infographic.jpg
 importance: 3
-category: work
+category: stanford medicine
 ---
-
-
+#### happy chemicals
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_happy_chem_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_happy_chem_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+#### spring flowers
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bookmark_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/other_spring_flowers.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+#### mindfulness
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/other_mindful_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/other_mindful_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+#### sun psa
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/other_sun_psa.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+#### gratitude
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/other_gratitude.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
