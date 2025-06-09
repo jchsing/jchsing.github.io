@@ -11,7 +11,7 @@ category: d.school projects
 
 **purpose:** to visualize the different facets of your academic and career journey in a way that tells a compelling story about the data of your life to-date. Highlight important transition points and pivotal discoveries, moments, and experiences that have shaped your world view and interests. What qualities of these transition points influenced a change in shape or direction?
 
-#### **idea sketching**
+<!-- #### **idea sketching**
 
 
 <div class="row">
@@ -42,7 +42,7 @@ I also tried to think about what were some good metaphors that could represent m
 Striking a balance between artistic design, quantitative clarity, and a professional résumé format was challenging. Defining key categories early on guided my process and helped shape the final product. Here’s how it turned out.
 <br>
 
-#### **final version**
+#### **final version** -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp1_visual_resume.jpg" title="final draft" class="img-fluid rounded z-depth-1" %}
