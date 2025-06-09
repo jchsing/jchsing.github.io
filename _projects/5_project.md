@@ -10,7 +10,7 @@ category: d.school projects
 
 **purpose:** to collect, frame, abstract, and craft data towards the construction of an infographic of your own personal geography.
 
-#### **idea sketching**
+<!-- #### **idea sketching**
 
 
 <div class="row">
@@ -28,7 +28,7 @@ category: d.school projects
     </div>
 </div>
 
-<br>
+<br> -->
 
 #### **a few drafts**
 <div class="row">
