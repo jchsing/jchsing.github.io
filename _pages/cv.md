@@ -8,4 +8,4 @@ nav_order: 2
 newtab: true
 ---
 
-<object data="/assets/pdf/jhsing_cv_Jun25.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="/assets/pdf/JHsing_CV_Jun25.pdf" width="1000" height="1000" type='application/pdf'></object>
