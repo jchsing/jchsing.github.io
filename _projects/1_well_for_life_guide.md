@@ -7,16 +7,18 @@ importance: 1
 category: stanford medicine
 ---
 <div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/well_flower.png" title="well_flower" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-**background:** [Stanford WELL for Life](https://med.stanford.edu/wellforlife.html) is a cutting-edge study at Stanford Prevention Reserach Center (SPRC) that is shifting the lens of chronic disease prevention to focus on understanding and enhancing well-being. What does it mean to be well and what can we do to increase one's well-being?
+[Stanford WELL for Life](https://med.stanford.edu/wellforlife.html) is a cutting-edge study at Stanford Prevention Reserach Center (SPRC) that is shifting the lens of chronic disease prevention to focus on understanding and enhancing well-being. What does it mean to be well and what can we do to increase one's well-being?
 
 The goal of this study is to understand and measure well-being across countries and cultures. To date, they have recruited over 31,000 participants from five study sites, including 6,780 from the US (mostly from the Bay Area), 10,290 from Hangzhou, China, 3,033 from New Taipei City, Taiwan, 9,300 from Singapore, and 2,184 from Bangkok, Thailand.
 
-In 2024, the WELL team created a guide summarizing the current state of research on well-being, its domains, and its key determinants. The guide offers insights from our group and other well-being researchers, along with practical ways to maintain and improve your own well-being. I served as the primary graphic designer on this project, leading the layout design and co-illustrating alongside the talented [Jan Buchczik](https://www.buchczik.com/).
+In 2024, the WELL team created a guide summarizing the current state of research on well-being, its domains, and its key determinants. The guide offers insights from our group and other well-being researchers, along with practical ways to maintain and improve your own well-being. 
+
+I served as the primary graphic designer on this project, leading the layout design and co-illustrating alongside the talented [Jan Buchczik](https://www.buchczik.com/).
 
 _click the bottom right corner to view in fullscreen._
 
