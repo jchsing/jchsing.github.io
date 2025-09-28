@@ -2,7 +2,7 @@
 layout: page
 title: visual resume
 description: visualizing my academic and career journey through a data-driven story
-img: assets/img/visual_resume_photo copy.png
+img: assets/img/visual_resume_photo copy.PNG
 importance: 1
 category: stanford d.school
 ---
