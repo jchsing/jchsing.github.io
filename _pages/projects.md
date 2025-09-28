@@ -1,11 +1,11 @@
 ---
 layout: page
-title: design projects
+title: creative portfolio
 permalink: /projects/
 description: creative projects i've been fortunate to be a part of
 nav: true
 nav_order: 4
-display_categories: [stanford medicine, d.school projects]
+display_categories: [stanford medicine, stanford d.school]
 horizontal: false
 ---
 
