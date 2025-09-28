@@ -4,7 +4,7 @@ title: ramen riso
 description: my first risograph print | "ramen is my happy place"
 img: assets/img/riso_photo.png
 importance: 3
-category: d.school projects
+category: stanford d.school
 ---
 
 **what does 'ramen is my happy place' mean?** there’s something magical about the ritual of slurping noodles, savoring rich broth, and selecting each topping. It offers a small escape from the world, a moment of comfort and joy. This print celebrates the happiness ramen brings to so many people around the world—a reminder to cherish the little things in life!

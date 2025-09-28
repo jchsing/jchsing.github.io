@@ -1,6 +1,6 @@
 ---
 layout: page
-title: creative portfolio
+title: design projects
 permalink: /projects/
 description: creative projects i've been fortunate to be a part of
 nav: true
