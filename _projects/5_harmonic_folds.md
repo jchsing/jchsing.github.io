@@ -10,13 +10,29 @@ category: stanford d.school
 
 **purpose:** to collect, frame, abstract, and craft data towards the construction of an infographic of your own personal geography.
 
+#### **idea sketching**
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp2_idea1.PNG" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp2_idea2.PNG" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp2_idea3.PNG" title="idea_sketching_3" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dp2_idea4.PNG" title="idea_sketching_4" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 #### **a few drafts**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_draft1.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_draft2.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_draft_2.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,13 +55,13 @@ _click play to hear what it sounds like!_
 #### **class exhibit**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_photo.jpg" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_display.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_key.jpg" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_key.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_description.jpg" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_description.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
