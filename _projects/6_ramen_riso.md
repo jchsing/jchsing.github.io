@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ramen riso
-description: my first risograph print | "ramen is my happy place"
+description: my first risograph print | "ramen is my happy place" | limited edition
 img: assets/img/riso_photo.png
 importance: 3
 category: stanford d.school
