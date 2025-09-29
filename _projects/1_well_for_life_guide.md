@@ -1,7 +1,7 @@
 ---
 layout: page
 title: well for life
-description: your guide to better well-being
+description: designed and co-illustrated a guide to better well-being
 img: assets/img/well_flower2.png
 importance: 1
 category: stanford medicine

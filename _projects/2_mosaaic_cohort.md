@@ -1,7 +1,7 @@
 ---
 layout: page
 title: mosaaic cohort
-description: infographic for anniversary celebration dinners
+description: designing infographics for the mosaaic anniversary celebration dinners
 img: assets/img/mosaaic_logo.png
 importance: 2
 category: stanford medicine

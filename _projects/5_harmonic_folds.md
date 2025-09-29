@@ -1,7 +1,7 @@
 ---
 layout: page
 title: harmonic folds
-description: a journey through musical genres
+description: a self-portrait of my musical genre journey since childhood
 img: assets/img/dp2_photo.jpg
 importance: 2
 category: stanford d.school
