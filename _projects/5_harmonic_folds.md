@@ -15,27 +15,15 @@ category: stanford d.school
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_idea1.PNG" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    placing events on a timeline
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_idea2.PNG" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="caption">
-    exploring other ways to plot events
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_idea3.PNG" title="idea_sketching_3" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    what if the events were placed on a musical staff?
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_idea4.PNG" title="idea_sketching_4" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    what about as a bar graph? 
-    </div> 
 </div>
 
 #### **a few drafts**
@@ -43,12 +31,14 @@ category: stanford d.school
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_draft1.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_draft_2.png" title="idea_sketching_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    played around with digital and physical designs
+    playing around with digital and physical designs
 </div>
 
 <br>
@@ -64,12 +54,12 @@ _click play to hear what it sounds like!_
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_triangles.jpg" title="trianlges" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_triangles.png" title="trianlges" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_display.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_description.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp2_final_key.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
@@ -79,7 +69,7 @@ _click play to hear what it sounds like!_
 #### **class exhibit**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dp2_final_description.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dp2_final_display.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
