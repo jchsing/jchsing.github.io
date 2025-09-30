@@ -3,20 +3,20 @@ layout: page
 title: climate emotions
 description: an interactive data dashboard of emotions related to climate change | softwares used: R, Flourish, and Canva
 img: assets/img/dp3_photo.png
-importance: 2
+importance: 3
 category: stanford d.school
 ---
 
-view the interactive dashboard [here](https://www.canva.com/design/DAGGXjPLkJo/-h-8claFSXw53Lct9OOoZw/view?utm_content=DAGGXjPLkJo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h894bbca54f#1)
-
-**background:** the WELL for Life study at Stanford University focuses on enhancing well-being and chronic disease prevention. Recognizing the link between well-being and emotions related to climate change, the study surveyed around 600 participants in 2022 about their emotions related to change change.
-
-In this DP3, we delve into the emotional impact of climate change by visually exploring climate-related emotions surveyed in four Bay Area counties. We compare how these emotions intersect across different demographic variables and mental health conditions, aiming to answer a crucial climate swerve question: 
-#### "Who are most affected by the emotional challenges of climate change?"
+**background:** in this data visualization project, we delve into the emotional impact of climate change by visually exploring climate-related emotions surveyed in four Bay Area counties (i.e., San Mateo County, Santa Clara County, San Francisco County, and Alameda County). Data are from participants enrolled in the Stanford WELL for Life Study. Recognizing the link between well-being and emotions related to climate change, the study surveyed around 600 participants in 2022 about their emotions related to change change. Here, we compare how these emotions intersect across different demographic variables and mental health conditions, aiming to answer a crucial climate swerve question:  
+#### "who are most affected by the emotional challenges of climate change?"
 
 We also wanted to know:
 * How do climate emotions change across demographics?
 * How do climate emotions compound across other mental health issues, including depression and loneliness?
+
+**goal:** the purpose of this project was to (1) analyze data related to a climate-related question, (2) gain hands-on experience with various data visualization tools, and (3) make it as interactive as possible. Data for this project was used with permission from the Principal Investigator of the Stanford WELL for Life Study. 
+
+We 
 
 #### **landing page**
 
