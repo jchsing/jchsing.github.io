@@ -3,7 +3,7 @@ layout: page
 title: climate emotions
 description: an interactive data dashboard of emotions related to climate change | softwares used: R, Flourish, and Canva
 img: assets/img/dp3_photo.png
-importance: 3
+importance: 2
 category: stanford d.school
 ---
 
