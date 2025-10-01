@@ -6,9 +6,6 @@ img: assets/img/infographic.jpg
 importance: 3
 category: design
 ---
-role: designer
-<br>
-
 #### happy chemicals
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
