@@ -4,7 +4,7 @@ title: well for life
 description: designed and co-illustrated a guide to better well-being
 img: assets/img/well_flower2.png
 importance: 1
-category: stanford medicine
+category: design
 ---
 <div class="row">
     <div class="col-sm-2 mt-3 mt-md-0">

@@ -4,7 +4,7 @@ title: harmonic folds
 description: a self-portrait of my musical genre journey since childhood
 img: assets/img/dp2_photo.jpg
 importance: 2
-category: stanford d.school
+category: data stories
 ---
 **description**: who are you? What are you made from? Where might you go? Your experience of the world is specifically unique, and extends beyond what shows up in your resume? What data is necessary to capture? What form should it take? How will you abstract said data? How will you frame it? Craft it? Present it?
 

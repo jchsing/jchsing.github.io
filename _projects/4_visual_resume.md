@@ -4,7 +4,7 @@ title: visual resume
 description: visualizing my academic and career journey through a data-driven story
 img: assets/img/visual_resume_photo copy.PNG
 importance: 3
-category: stanford d.school
+category: data stories
 ---
 
 **background:** traditional résumés and CVs are meant to summarize a person’s professional journey as concisely as possible, leaning heavily on formulaic bullet points and flattened forms. While this approach to building and writing a resume is often necessary and valuable, there is a lot of uncharted territory when it comes to the creative expression of your journey, your interests, and the multi-dimensional form of your unique story.

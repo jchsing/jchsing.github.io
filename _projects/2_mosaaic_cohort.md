@@ -4,7 +4,7 @@ title: mosaaic cohort
 description: designing infographics for the mosaaic anniversary celebration dinners
 img: assets/img/mosaaic_logo.png
 importance: 2
-category: stanford medicine
+category: design
 ---
 **background:** the National Heart Lung and Blood Institute (NHLBI) has launched an epidemiological cohort that focuses on Asian American, Native Hawaiian or Pacific Islander (NHPI) populations. It is called **MOSAAIC**, which stands for **M**ulti-ethnic **O**bservational **S**tudy in **A**merican **A**sian and **P**acific **I**slander **C**ommunities. This study aims to understand cardiovascular disease to improve prevention in these understudied populations.
 
