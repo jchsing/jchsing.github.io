@@ -6,6 +6,9 @@ img: assets/img/well_flower2.png
 importance: 1
 category: design
 ---
+role: lead designer and co-illustrator
+<br>
+
 <div class="row">
     <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/well_flower.png" title="well_flower" class="img-fluid rounded z-depth-1" %}

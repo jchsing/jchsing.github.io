@@ -6,6 +6,8 @@ img: assets/img/dp3_photo.png
 importance: 1
 category: data stories
 ---
+role: lead designer and analyst
+<br>
 #### **view dashboard** [here](https://www.canva.com/design/DAGGXjPLkJo/-h-8claFSXw53Lct9OOoZw/view?utm_content=DAGGXjPLkJo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h894bbca54f#1)
 
 **background:** this project explores the emotional impact of climate change through interactive data visualizations, based on survey responses from around 600 participants in the [Stanford WELL for Life](https://med.stanford.edu/wellforlife.html). Participants were asked about their climate-related emotions in four Bay Area counties: San Mateo, Santa Clara, San Francisco, and Alameda. Recognizing that emotions are deeply linked to well-being, the study also examines how these emotions intersect with demographic factors and mental health conditions. Key questions include:
