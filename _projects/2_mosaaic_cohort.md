@@ -10,7 +10,7 @@ category: design
 
 The study will take place at six research institutions — the Fred Hutchinson Cancer Center in Seattle, Washington, the study’s coordinating center; and five clinical/community field centers — the University of Hawaii at Mānoa, Stanford University, the University of Chicago, the Fox Chase Cancer Center in Philadelphia, and the New York University Langone Health/Perlmutter Cancer Center. read more [here](https://www.nhlbi.nih.gov/news/2024/new-nhlbi-study-focuses-asian-americans-native-hawaiians-and-pacific-islanders)
 
-**purpose:** I designed the following infographics that summarize the study's accomplishments, progress, goals, and recruitment approach and be presented at their celebration dinners.
+I designed the following infographics that summarize the study's accomplishments, progress, goals, and recruitment approach and be presented at their celebration dinners.
 
 #### 2023-2024 celebration dinner
 
