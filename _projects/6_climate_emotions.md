@@ -29,7 +29,7 @@ view dashboard [here](https://www.canva.com/design/DAGGXjPLkJo/-h-8claFSXw53Lct9
     </div>
 </div>
 
-**navigation page:** after the landing page, you encounter the dashboard, which provides three main ways to explore the data:
+**navigation page:** after the landing page, you encounter the navigation page, which provides three main ways to explore the data:
 * **about the data** – View descriptive statistics to understand the sample, including demographics, mental health measures, and reported climate emotions.
 * **key findings** – Dive deeper into the core research questions. Examine patterns in climate emotions across demographics and mental health conditions.
 * **beyond the bay** – Compare the Bay Area findings to global datasets and see how these emotions manifest in other countries.
@@ -47,8 +47,8 @@ we also include a navigation bar on the right, allowing you to return to the hom
 <br>
 <br>
 
-#### **final interactive dashboard**
-we encourage you to explore the final dashboard <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGXjPLkJo&#x2F;BEVKalEE8R8GS7VCBA0LFA&#x2F;view?utm_content=DAGGXjPLkJo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">here</a>, for the best experience, but here is a breakdown of the key findings.
+#### **explore the dashboard!**
+for the best experience, we encourage you to explore the final dashboard <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGXjPLkJo&#x2F;BEVKalEE8R8GS7VCBA0LFA&#x2F;view?utm_content=DAGGXjPLkJo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">here</a>, but we provide a breakdown of the key findings below.
 
 #### key findings
 <div class="row">
@@ -72,40 +72,59 @@ we encourage you to explore the final dashboard <a href="https:&#x2F;&#x2F;www.c
     </div>
 </div>
 
+#### notes:
+this project was completed for the class DESIGN 255: The Design of Data. It is by no means a comprehensive examination of the emotional impact of climate change; rather, it explores only a small slice of the topic. All analyses are bivariate, and no multivariate regressions were conducted to assess associations. Please interpret these findings with caution, and remember that correlation does not imply causation! We welcome any suggestions for improving the analyses.*
+
+<br>
 <br>
 
-*note: this project was completed for the class DESIGN 255: The Design of Data. It is by no means a comprehensive examination of the emotional impact of climate change; rather, it explores only a small slice of the topic. All analyses are bivariate, and no multivariate regressions were conducted to assess associations. Please interpret these findings with caution, and remember that correlation does not imply causation! We welcome any suggestions for improving the analyses.*
+<details>
+  <summary><strong>interested in the data and methods?</strong> (click to expand)</summary>
 
-<br>
-<br>
+  <p><em>descriptive analyses were conducted in R, and data visualizations were made using Flourish.</em></p>
 
-<details> 
-  <summary><strong>Interested in the Data and Methods?</strong> (click to expand)</summary>
+  <strong>data and information sources:</strong>
+  <ul>
+    <li><a href="https://med.stanford.edu/wellforlife.html">Stanford WELL for Life (US data)</a></li>
+    <li>Hickman, C., et al. (2021). Climate anxiety in children and young people and their beliefs about government responses to climate change: a global survey. <a href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext#seccestitle80">The Lancet Planetary Health</a></li>
+    <li>A Guide to Climate Emotions by the <a href="https://www.climatementalhealth.net/wheel">Climate Mental Health Network</a></li>
+  </ul>
 
-  *Descriptive analyses were conducted in R, and data visualizations were made using Flourish.*
-
-  **Data and Information Sources:**  
-  * [Stanford WELL for Life (US data)](https://med.stanford.edu/wellforlife.html)  
-  * Hickman, C., et al (2021). Climate anxiety in children and young people and their beliefs about government responses to climate change: a global survey. [The Lancet Planetary Health](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext#seccestitle80)  
-  * A Guide to Climate Emotions by the [Climate Mental Health Network](https://www.climatementalhealth.net/wheel)  
-
-  **Measures:**  
-  * <u>Climate emotions:</u>  
-      * Depending on the use case, we categorized the responses for each climate emotion in the following ways:  
-          * Original: (1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly Often, (5) Very Often  
-          * Method A: (1) Never or Almost Never, (2) Sometimes, (3) Fairly Often or Very Often  
-          * Method B: (1) Yes (Sometimes or Fairly Often or Very Often), (2) No (Almost Never or Never)  
-  * <u>Clinical Depression:</u>  
-      * “Have you ever been told by a doctor or other health professional that you had or have depression?”  
-          * (1) Yes, (0) No, (2) Don’t know  
-  * <u>UCLA Loneliness Scale:</u>  
-      * “During the last two weeks, how often did you feel…”  
-          * …that you lacked companionship?  
-          * …left out?  
-          * …isolated from others?  
-      * Scoring: sum all three items, 3–5 = Not Lonely and 6–9 = Lonely  
-  * <u>Exposure to Nature:</u>  
-      * “How often did you do something outside for a period of time lasting more than 10 minutes?”  
-          * (1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly Often, (5) Very Often  
+  <strong>measures:</strong>
+  <ul>
+    <li>
+      <u>climate emotions:</u>
+      <p>depending on the use case, we categorized the responses for each climate emotion in the following ways:</p>
+      <ul>
+        <li>Original: (1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly Often, (5) Very Often</li>
+        <li>Method A: (1) Never or Almost Never, (2) Sometimes, (3) Fairly Often or Very Often</li>
+        <li>Method B: (1) Yes (Sometimes or Fairly Often or Very Often), (2) No (Almost Never or Never)</li>
+      </ul>
+    </li>
+    <li>
+      <u>clinical depression:</u>
+      <p>“Have you ever been told by a doctor or other health professional that you had or have depression?”</p>
+      <ul>
+        <li>(1) Yes, (0) No, (2) Don’t know</li>
+      </ul>
+    </li>
+    <li>
+      <u>UCLA Loneliness Scale:</u>
+      <p>“During the last two weeks, how often did you feel…”</p>
+      <ul>
+        <li>…that you lacked companionship?</li>
+        <li>…left out?</li>
+        <li>…isolated from others?</li>
+      </ul>
+      <p>Scoring: sum all three items, 3–5 = Not Lonely and 6–9 = Lonely</p>
+    </li>
+    <li>
+      <u>Exposure to Nature:</u>
+      <p>“How often did you do something outside for a period of time lasting more than 10 minutes?”</p>
+      <ul>
+        <li>(1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly Often, (5) Very Often</li>
+      </ul>
+    </li>
+  </ul>
 
 </details>
