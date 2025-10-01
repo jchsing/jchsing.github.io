@@ -7,74 +7,73 @@ importance: 5
 category: stanford d.school
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**background:** in this data visualization project, we delve into the emotional impact of climate change by visually exploring climate-related emotions surveyed in four Bay Area counties (i.e., San Mateo County, Santa Clara County, San Francisco County, and Alameda County). Data are from participants enrolled in the Stanford WELL for Life Study. Recognizing the link between well-being and emotions related to climate change, the study surveyed around 600 participants in 2022 about their emotions related to change change. Here, we compare how these emotions intersect across different demographic variables and mental health conditions, aiming to answer a crucial climate swerve question:  
+#### "who are most affected by the emotional challenges of climate change?"
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We also wanted to know:
+* How do climate emotions change across demographics?
+* How do climate emotions compound across other mental health issues, including depression and loneliness?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**goal:** the purpose of this project was to (1) analyze data related to a climate-related question, (2) gain hands-on experience with various data visualization tools, and (3) make it as interactive as possible. Data for this project was used with permission from the Principal Investigator of the Stanford WELL for Life Study. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+We 
+
+#### **landing page**
+
+
+
+#### **navigation page**
+1. about the data
+
+
+2. key findings
+
+
+3. beyond the bay
+
+
+
+
+
+
+
+#### **Data and Methods:**
+
+*Descriptive analyses were conducted in R and data visualizations were made using Flourish*
+
+**Data and information sources:**
+* [Stanford WELL for Life (US data)](https://med.stanford.edu/wellforlife.html)
+* Hickman, C., et al (2021). Climate anxiety in children and young people and their beliefs about government responses to climate change: a global survey. [The Lancet Planetary Health](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext#seccestitle80)
+* A Guide to Climate Emotions by the [Climate Mental Health Network](https://www.climatementalhealth.net/wheel)
+
+**Measures:**
+* <u>Climate emotions:</u>
+    * Depending on the use case, we categorized the responses for each climate emotion in the following ways: 
+        * Original: 1, Never | 2, Almost Never | 3, Sometimes | 4, Fairly Often | 5, Very Often
+        * Method A: 1, Never or Almost Never | 2, Sometimes | 3, Fairly Often or Very Often
+        * Method B: 1, Yes (Sometimes or Fairly Often or Very Often) | 2, No (Almost Never or Never)
+* <u>Clinical Depression:</u>
+    * “Have you ever been told by a doctor or other health professional that you had or have depression?”
+        * 1, Yes | 0, No | 2, Don’t know
+* <u>UCLA Loneliness Scale:</u>
+    * “During the last two weeks, how often did you feel…”
+            * ...that you lacked companionship?
+            *...left out?
+            * ...isolated from others?
+        * 3, Often | 2, Sometimes | 1, Hardly ever
+    * Scoring: sum all three items, 3-5 = Not Lonely and 6-9 = Lonely
+* <u>Exposure to nature:</u>
+    * “How often did you do something outside for a period of time lasting more than 10 minutes?”
+        * 1, Never | 2, Almost Never | 3, Sometimes | 4, Fairly Often | 5, Very Often
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGGXjPLkJo/BEVKalEE8R8GS7VCBA0LFA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (c) 2024 Julianna Hsing | project from DESIGN 255: design of data
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+You can also view this dashboard in a <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGXjPLkJo&#x2F;BEVKalEE8R8GS7VCBA0LFA&#x2F;view?utm_content=DAGGXjPLkJo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">new window</a>.
