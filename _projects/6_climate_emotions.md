@@ -3,22 +3,25 @@ layout: page
 title: climate emotions
 description: an interactive data dashboard of emotions related to climate change
 img: assets/img/dp3_photo.png
-importance: 3
+importance: 1
 category: stanford d.school
 ---
 
-**background:** in this data visualization project, we delve into the emotional impact of climate change by visually exploring climate-related emotions surveyed in four Bay Area counties (i.e., San Mateo County, Santa Clara County, San Francisco County, and Alameda County). Data are from participants enrolled in the Stanford WELL for Life Study. Recognizing the link between well-being and emotions related to climate change, the study surveyed around 600 participants in 2022 about their emotions related to change change. Here, we compare how these emotions intersect across different demographic variables and mental health conditions, aiming to answer a crucial climate swerve question:  
-* "who are most affected by the emotional challenges of climate change?"
+**background:** this project explores the emotional impact of climate change through interactive data visualizations, based on survey responses from around 600 participants in the Stanford WELL for Life Study. Participants were asked about their climate-related emotions in four Bay Area counties: San Mateo, Santa Clara, San Francisco, and Alameda. Recognizing that emotions are deeply linked to well-being, the study also examines how these emotions intersect with demographic factors and mental health conditions. Key questions include:
+* Who experiences the strongest emotional responses to climate change?
+* How do climate emotions vary across age, gender, and other demographic variables?
+* How do climate emotions interact with mental health conditions, such as depression or loneliness?
 
-we also wanted to know:
-* how do climate emotions change across demographics?
-* how do climate emotions compound across other mental health issues, including depression and loneliness?
+**goals:**
+* Analyze climate-related emotional data.
+* Gain hands-on experience with interactive data visualization tools.
+* Create a dashboard that allows users to explore findings dynamically.
 
-**goal:** the purpose of this project was to (1) analyze data related to a climate-related question, (2) gain hands-on experience with various data visualization tools, and (3) make it as interactive as possible. Data for this project was used with permission from the Principal Investigator of the Stanford WELL for Life Study. 
+*Data were used with permission from the Principal Investigator of the Stanford WELL for Life Study.*
+
 
 #### **landing page**
-this landing page provides a brief overview about the study and projects so the user can orient themselves before diving into the dashboard. 
-
+the landing page introduces the project and provides context so users can orient themselves before interacting with the dashboard. Here, you’ll find background on the study, the dataset, and the questions guiding the research.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp3_photo.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
@@ -26,43 +29,47 @@ this landing page provides a brief overview about the study and projects so the 
 </div>
 
 #### **navigation page**
-after the landing page, you are presented with three ways to explore the dashboard. 
-1. about the data - descriptive statistics of the data
-2. key findings - getting into the meat of the research question
-3. beyond the bay - zooming out and seeing out the findings compare with participants in other countries. 
+after the landing page, the dashboard provides three main ways to explore the data:
+* **about the data** – View descriptive statistics to understand the sample, including demographics, mental health measures, and reported climate emotions.
+* **key findings** – Dive deeper into the core research questions. Examine patterns in climate emotions across demographics and mental health conditions.
+* **beyond the bay** – Compare the Bay Area findings to global datasets and see how these emotions manifest in other countries.
 
+This structure allows you to start broad and gradually explore more detailed insights.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dp3_navigation.png" title="idea_sketching_1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-#### **final interactive dasboard**
-You can also explore this dashboard in a <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGXjPLkJo&#x2F;BEVKalEE8R8GS7VCBA0LFA&#x2F;view?utm_content=DAGGXjPLkJo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">new window</a>.
+#### **about the data**
+This section provides a detailed view of the dataset and descriptive statistics, so you can understand the foundation of our analysis before diving into trends or comparisons. Key features include:
+* Demographics: Explore participant characteristics such as age, gender, income, education and county of residence. This helps contextualize patterns in climate emotions.
+* Climate emotions: View the frequency of different climate-related feelings, such as worry, guilt, or hope, reported by participants.
 
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGGXjPLkJo/BEVKalEE8R8GS7VCBA0LFA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<div class="caption">
-    (c) 2024 Julianna Hsing | project from DESIGN 255: design of data
-</div>
+#### **key findings**
+* #### **a higher proportion of younger participants feel more anger and anxiety compared to older adults** 
+* #### **women are more likely to report frequent feelings of negative emotions than men**
+* #### **individuals who feel lonely are more likely to be more anxious about climate change**
+* #### **however, frequent outdoor activities may help combat negative emotions related to climate change**
+
+#### **explore with the final interactive dashboard <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGXjPLkJo&#x2F;BEVKalEE8R8GS7VCBA0LFA&#x2F;view?utm_content=DAGGXjPLkJo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">here</a>.**
+
 <br>
 <br>
 
-**data and methods:**
+<details> 
+<summary><strong>interested in the data and methods?</strong> (click to expand)</summary>
 
-*Descriptive analyses were conducted in R and data visualizations were made using Flourish*
+<br>
 
-**Data and information sources:**
+*descriptive analyses were conducted in R and data visualizations were made using Flourish*
+
+**data and information sources:**
 * [Stanford WELL for Life (US data)](https://med.stanford.edu/wellforlife.html)
 * Hickman, C., et al (2021). Climate anxiety in children and young people and their beliefs about government responses to climate change: a global survey. [The Lancet Planetary Health](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext#seccestitle80)
 * A Guide to Climate Emotions by the [Climate Mental Health Network](https://www.climatementalhealth.net/wheel)
 
-**Measures:**
+**measures:**
 * <u>Climate emotions:</u>
     * Depending on the use case, we categorized the responses for each climate emotion in the following ways: 
         * Original: (1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly Often, (5) Very Often
@@ -81,3 +88,5 @@ You can also explore this dashboard in a <a href="https:&#x2F;&#x2F;www.canva.co
 * <u>Exposure to nature:</u>
     * “How often did you do something outside for a period of time lasting more than 10 minutes?”
         * (1) Never, (2) Almost Never, (3) Sometimes, (4) Fairly oFten, (5) Very Often
+
+</details>
