@@ -5,7 +5,7 @@ permalink: /projects/
 description: creative projects i've been fortunate to be a part of
 nav: true
 nav_order: 4
-display_categories: [data stories, infographics, design]
+display_categories: [data stories, design, printmaking]
 horizontal: false
 ---
 

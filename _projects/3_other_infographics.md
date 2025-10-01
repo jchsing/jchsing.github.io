@@ -4,7 +4,7 @@ title: other works
 description: a selection of infographics i have worked on for stanford medicine over the years
 img: assets/img/infographic.jpg
 importance: 3
-category: infographics
+category: design
 ---
 #### happy chemicals
 <div class="row">
