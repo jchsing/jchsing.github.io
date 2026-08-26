@@ -1,0 +1,139 @@
+[
+  {
+    "id": "wang2025nafld",
+    "title": "Distinct Gut Microbiota Profiles in Normal Weight Obesity and Their Association With Cardiometabolic Diseases: Results From Two Independent Cohort Studies",
+    "authors": "Wenjie Wang, Feijie Wang, Yihan Li, Yuwei Shi, Xiaoyan Wang, Xinyu Chen, Weifang Zheng, Julianna C Hsing, Ying Lu, Yi-Shuan Wu, Ann W Hsing, Juntao Kan, Wei He, Shankuan Zhu",
+    "venue": "Journal of Cachexia, Sarcopenia and Muscle",
+    "year": 2025,
+    "type": "Journal Article",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcsm.13644"
+  },
+  {
+    "id": "yang2023nafld",
+    "title": "Nonalcoholic fatty liver disease (NAFLD) detection and deep learning in a Chinese community-based population",
+    "authors": "Yang Yang, Jing Liu, Changxuan Sun, Yuwei Shi, Julianna C Hsing, Aya Kamya, Cody A Keller, Neha Antil, Daniel Rubin, Hongxia Wang, Haochao Ying, Xueyin Zhao, Yi-Hsuan Wu, Mindie Nguyen, Ying Lu, Fei Yang, Pinton Huang, Ann W Hsing, Jian Wu, Shankuan Zhu",
+    "venue": "European Radiology",
+    "year": 2023,
+    "type": "Journal Article",
+    "url": "https://link.springer.com/article/10.1007/s00330-023-09515-1",
+    "cover": "img/pubs/european-radiology.jpg"
+  },
+  {
+    "id": "hsing2022development",
+    "title": "Development and Validation of Age-Specific Resilience Instruments for Early Childhood Assessment: A Taiwan Birth Cohort Study",
+    "authors": "Julianna C Hsing, Bea-Jane Lin, Uma Pulendran, Shilpa G Jani, Wan-Lin Chiang, Tung-liang Chiang, C Jason Wang",
+    "venue": "Academic Pediatrics",
+    "year": 2022,
+    "type": "Journal Article",
+    "volume": "22",
+    "number": "7",
+    "url": "https://doi.org/10.1016/j.acap.2022.06.002",
+    "pdf": "pdf/papers/hsing2022development.pdf"
+  },
+  {
+    "id": "altamirano2022feasibility",
+    "title": "Feasibility of specimen self-collection in young children undergoing SARS-CoV-2 surveillance for in-person learning",
+    "authors": "Jonathan Altamirano, Marcela Lopez, India G Robinson, Leanne X Chun, Grace K-Y Tam, Nuzhat J Shaikh, Elisabeth G Hoyte, Yuan Jin Carrington, Shilpa G Jani, Elizabeth Y Toomarian et al.",
+    "venue": "JAMA Network Open",
+    "year": 2022,
+    "type": "Journal Article",
+    "volume": "5",
+    "number": "2",
+    "url": "http://doi.org/10.1001/jamanetworkopen.2021.48988",
+    "cover": "img/pubs/jama-network-open.png"
+  },
+  {
+    "id": "jani2022prospective",
+    "title": "Prospective pilot study evaluating SARS-CoV-2 transmission-limiting measures in an on-site school",
+    "authors": "Shilpa G Jani, Jasmin Ma, Uma Pulendran, Julianna C Hsing, Jonathan Altamirano, Soleil Shah, Elizabeth Y Toomarian, Yvonne Maldonado, Chih-Hung Jason Wang",
+    "venue": "Academic Pediatrics",
+    "year": 2022,
+    "type": "Journal Article",
+    "volume": "22",
+    "number": "4",
+    "url": "https://doi.org/10.1016/j.acap.2021.11.019"
+  },
+  {
+    "id": "hsing2021influence",
+    "title": "Influence of health beliefs on adherence to COVID-19 preventative practices: International, social media-based survey study",
+    "authors": "Julianna C Hsing, Jasmin Ma, Alejandra Barrero-Castillero, Shilpa G Jani, Uma Palam Pulendran, Bea-Jane Lin, Monika Thomas-Uribe, C Jason Wang",
+    "venue": "Journal of medical Internet research",
+    "year": 2021,
+    "type": "Journal Article",
+    "volume": "23",
+    "number": "2",
+    "url": "https://doi.org/10.2196/23720",
+    "pdf": "pdf/papers/hsing2021influence.pdf",
+    "cover": "img/pubs/jmir.jpg"
+  },
+  {
+    "id": "jani2021pretermconnect",
+    "title": "PretermConnect: Leveraging mobile technology to mitigate social disadvantage in the NICU and beyond",
+    "authors": "Shilpa G Jani, Audrey D Nguyen, Zara Abraham, Melissa Scala, Yair J Blumenfeld, Jane Morton, Monique Nguyen, Jasmin Ma, Julianna C Hsing, Manafoh Moiwa-Grant et al.",
+    "venue": "Seminars in perinatology",
+    "year": 2021,
+    "type": "Journal Article",
+    "volume": "45",
+    "number": "4",
+    "url": "https://doi.org/10.1016/j.semperi.2021.151413"
+  },
+  {
+    "id": "hsing2020child",
+    "title": "Child health and telehealth in global, underresourced settings",
+    "authors": "Julianna C Hsing, C Jason Wang, Paul H Wise",
+    "venue": "Pediatric Clinics",
+    "year": 2020,
+    "type": "Invited Paper",
+    "volume": "67",
+    "number": "4",
+    "url": "https://doi.org/10.1016/j.pcl.2020.04.014",
+    "cover": "img/pubs/pcna.jpg"
+  },
+  {
+    "id": "yarney2020establishing",
+    "title": "Establishing a cancer registry in a resource-constrained region: process experience from Ghana",
+    "authors": "Joel Yarney, Naomi O Ohene Oti, Benedict NL Calys-Tagoe, Richard K Gyasi, Isaac Agyeman Duah, Charles Akoto-Aidoo, Valerie McGuire, Julianna C Hsing, Max Parkin, Yao Tettey et al.",
+    "venue": "JCO global oncology",
+    "year": 2020,
+    "type": "Journal Article",
+    "volume": "6",
+    "url": "https://doi.org/10.1200/JGO.19.00387"
+  },
+  {
+    "id": "hsing2019associations",
+    "title": "Associations between body fat, muscle mass, and nonalcoholic fatty liver disease: a population-based study",
+    "authors": "Julianna C Hsing, Mindie H Nguyen, Baiyu Yang, Yan Min, Summer S Han, Emily Pung, Sandra J Winter, Xueyin Zhao, Da Gan, Ann W Hsing et al.",
+    "venue": "Hepatology communications",
+    "year": 2019,
+    "type": "Journal Article",
+    "volume": "3",
+    "number": "8",
+    "url": "https://doi.org/10.1002/hep4.1392",
+    "pdf": "pdf/papers/hsing2019associations.pdf",
+    "cover": "img/pubs/hepatology-communications.jpg"
+  },
+  {
+    "id": "kartzinel2019covariation",
+    "title": "Covariation of diet and gut microbiome in African megafauna",
+    "authors": "Tyler R Kartzinel, Julianna C Hsing, Paul M Musili, Bianca RP Brown, Robert M Pringle",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "year": 2019,
+    "type": "Journal Article",
+    "volume": "116",
+    "number": "47",
+    "url": "https://doi.org/10.1073/pnas.1905666116",
+    "pdf": "pdf/papers/kartzinel2019covariation.pdf",
+    "cover": "img/pubs/pnas.jpg"
+  },
+  {
+    "id": "mclaughlin2016endoscopic",
+    "title": "Endoscopic Radiofrequency Ablation-Assisted Resection of Juvenile Nasopharyngeal Angiofibroma: Comparison with Traditional Endoscopic Technique",
+    "authors": "Eamon J McLaughlin, Michael J Cunningham, Ken Kazahaya, Julianna C Hsing, Kosuke Kawai, Eelam A Adil",
+    "venue": "Otolaryngology--Head and Neck Surgery",
+    "year": 2016,
+    "type": "Journal Article",
+    "volume": "154",
+    "number": "6",
+    "url": "https://doi.org/10.1177/0194599816630942"
+  }
+]

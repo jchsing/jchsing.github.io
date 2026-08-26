@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>creative portfolio — Julianna Hsing</title>
+<meta name="description" content="Infographics, data stories, and printmaking by Julianna Hsing — where science communication meets visual design.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="creative portfolio — Julianna Hsing">
+<meta property="og:description" content="Infographics, data stories, and printmaking by Julianna Hsing — where science communication meets visual design.">
+<meta property="og:image" content="https://jchsing.github.io/img/main/og-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="creative portfolio — Julianna Hsing">
+<meta name="twitter:description" content="Infographics, data stories, and printmaking by Julianna Hsing — where science communication meets visual design.">
+<meta name="twitter:image" content="https://jchsing.github.io/img/main/og-preview.jpg">
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="img/main/wordmark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+
+<body data-root="">
+<a class="skip-link" href="#main">skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="index.html" aria-label="Julianna Hsing — home">
+      <img src="img/main/wordmark.png" alt="J.Hsing">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="menu">
+      <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M1 4h16M1 9h16M1 14h16"/>
+      </svg>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="primary">
+      <ul>
+        <li><a href="about.html">about</a></li>
+        <li class="nav-group" data-open="false">
+          <button class="nav-group__toggle" type="button" aria-expanded="false">
+            academic portfolio
+            <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 1l4 4 4-4"/>
+            </svg>
+          </button>
+          <div class="nav-group__menu">
+            <a href="cv.html">cv / resume</a>
+            <a href="publications.html">publications</a>
+          </div>
+        </li>
+        <li><a href="creative.html" aria-current="page">creative portfolio</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="wrap page-head">
+    <h1 class="page-head__title">creative portfolio</h1>
+    <p class="page-head__lede">infographics, data stories, and printmaking — where science communication meets visual design.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="filters" id="project-filters" role="group" aria-label="filter projects by category"></div>
+    <div class="card-grid" id="all-projects"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__sign">
+      <img src="img/main/signature-black.png" alt="Julianna Hsing signature">
+    </div>
+    <ul class="site-footer__links">
+      <li><a href="about.html">about</a></li>
+      <li><a href="cv.html">cv / resume</a></li>
+      <li><a href="publications.html">publications</a></li>
+      <li><a href="creative.html">creative portfolio</a></li>
+      <li><a href="mailto:jchsing@stanford.edu">email</a></li>
+      <li><a href="https://www.linkedin.com/in/julianna-hsing/" target="_blank" rel="noopener">linkedin</a></li>
+      <li><a href="https://github.com/jchsing" target="_blank" rel="noopener">github</a></li>
+    </ul>
+    <p class="site-footer__note">© <span id="copyright-year"></span> Julianna Hsing. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+<script src="js/cards.js"></script>
+</body>
+</html>
