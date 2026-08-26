@@ -3,7 +3,9 @@
     "slug": "climate-emotions",
     "title": "climate emotions",
     "blurb": "an interactive data dashboard of emotions related to climate change",
-    "category": "data stories",
+    "category": [
+      "data viz"
+    ],
     "cover": "img/projects/climate-emotions/finding-2.jpg",
     "year": "2024",
     "role": "lead designer & analyst",
@@ -18,7 +20,10 @@
     "slug": "well-for-life",
     "title": "well for life",
     "blurb": "designed and co-illustrated a guide to better well-being",
-    "category": "design",
+    "category": [
+      "graphic design", 
+      "illustration"
+    ],
     "cover": "img/projects/well-for-life/cover-illustration.png",
     "coverFit": "contain",
     "year": "2024",
@@ -33,7 +38,10 @@
     "slug": "harmonic-folds",
     "title": "harmonic folds",
     "blurb": "a self-portrait of my musical genre journey since childhood",
-    "category": "data stories",
+    "category": [
+      "graphic design", 
+      "data viz"
+    ],
     "cover": "img/projects/harmonic-folds/cover.jpg",
     "year": "2024",
     "role": "designer",
@@ -61,7 +69,7 @@
     "slug": "mosaaic-cohort",
     "title": "mosaaic cohort",
     "blurb": "infographics for the mosaaic anniversary celebration dinners",
-    "category": "design",
+    "category": "graphic design",
     "cover": "img/projects/mosaaic-cohort/logo.png",
     "coverFit": "contain",
     "year": "2024–2025",
@@ -90,7 +98,7 @@
     "slug": "other-works",
     "title": "other works",
     "blurb": "a selection of infographics for stanford medicine over the years",
-    "category": "design",
+    "category": "graphic design",
     "cover": "img/projects/other-works/infographic.jpg",
     "year": "2019–2025",
     "role": "designer & illustrator",

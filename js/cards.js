@@ -1,11 +1,19 @@
-/* project cards rendered from data/projects.json  (mh's json-driven pattern) */
+/* project cards */
 
-const CAT_SLUG = (c) => c.replace(/\s+/g, "-").toLowerCase();
+const CAT_SLUG = (c) => String(c).trim().replace(/\s+/g, "-").toLowerCase();
+
+// a project may carry one category or several; always work with a list
+const CATS = (p) =>
+  (Array.isArray(p.category) ? p.category : [p.category])
+    .filter(Boolean)
+    .map((c) => String(c).trim());
 
 function projectCard(p) {
   const card = document.createElement("article");
   card.className = "card";
-  card.dataset.category = p.category;
+  const cats = CATS(p);
+  // pipe-delimited so a filter can test membership without partial matches
+  card.dataset.categories = `|${cats.map(CAT_SLUG).join("|")}|`;
 
   const fit = p.coverFit === "contain" ? " card__media--contain" : "";
   const tools = (p.tools || [])
@@ -21,9 +29,9 @@ function projectCard(p) {
         <a class="card__link" href="${rel("projects/" + p.slug + "/")}">${p.title}</a>
       </h3>
       <p class="card__desc">${p.blurb}</p>
+      <p class="card__tools">${p.tools.join(", ")}</p>
       <div class="card__meta">
-        <span class="tag tag--${CAT_SLUG(p.category)}">${p.category}</span>
-        ${tools}
+        ${cats.map((c) => `<span class="tag tag--${CAT_SLUG(c)}">${c}</span>`).join("")}
       </div>
     </div>`;
   return card;
@@ -73,7 +81,7 @@ async function initCreativeGrid() {
   const filterBar = document.getElementById("project-filters");
   if (!filterBar) return;
 
-  const categories = [...new Set(projects.map((p) => p.category))];
+  const categories = [...new Set(projects.flatMap(CATS))].sort();
 
   const makeFilter = (label, value, pressed) => {
     const b = document.createElement("button");
@@ -86,7 +94,7 @@ async function initCreativeGrid() {
   };
 
   filterBar.appendChild(makeFilter("everything", "all", true));
-  categories.forEach((c) => filterBar.appendChild(makeFilter(c, c, false)));
+  categories.forEach((c) => filterBar.appendChild(makeFilter(c, CAT_SLUG(c), false)));
 
   filterBar.addEventListener("click", (e) => {
     const btn = e.target.closest(".filter");
@@ -98,7 +106,8 @@ async function initCreativeGrid() {
 
     const want = btn.dataset.filter;
     container.querySelectorAll(".card").forEach((card) => {
-      const show = want === "all" || card.dataset.category === want;
+      const show =
+        want === "all" || card.dataset.categories.includes(`|${want}|`);
       card.hidden = !show;
     });
   });

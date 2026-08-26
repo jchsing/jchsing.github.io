@@ -48,10 +48,14 @@
   padding-block: var(--s-2);
 }
 
-.site-nav a:hover { color: var(--ink); }
+.site-nav a:hover { color: var(--accent); }
 
 .site-nav a[aria-current="page"],
 .site-nav li.is-active > a { color: var(--ink); font-weight: 600; }
+
+/* DISABLED: accent underline under the current nav item.
+   The current page is still marked by the darker, bolder link above.
+   Uncomment to bring the underline back.
 
 .site-nav a[aria-current="page"]::after {
   content: "";
@@ -61,6 +65,7 @@
   background: var(--accent);
   border-radius: 2px;
 }
+*/
 
 /* ---- dropdown: academic portfolio ---- */
 .nav-group { position: relative; }
@@ -380,12 +385,12 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-  gap: clamp(1.25rem, 2.5vw, 2rem);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: clamp(0.75rem, 1.5vw, 1.25rem);
 }
 
 .card-grid--2 {
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
 }
 
 .card {
@@ -430,21 +435,28 @@
   display: flex;
   flex-direction: column;
   gap: var(--s-2);
-  padding: var(--s-5);
+  padding: var(--s-4);
   flex: 1;
 }
 
 .card__title {
-  font-size: var(--t-lg);
+  font-size: var(--t-md);
   font-weight: 600;
   line-height: 1.25;
   text-transform: lowercase;
 }
 
 .card__desc {
-  font-size: var(--t-sm);
+  font-size: var(--t-xs);
   color: var(--gray);
   line-height: 1.55;
+}
+
+.card__tools {
+  font-size: var(--t-xs);
+  font-style: italic;
+  color: var(--gray);
+  line-height: 0.55;
 }
 
 .card__meta {
@@ -462,7 +474,7 @@
   inset: 0;
 }
 
-/* the tool/category chips edison uses under each card */
+/* the tool/category chips */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -470,14 +482,16 @@
   letter-spacing: 0.03em;
   color: var(--gray);
   background: var(--bg-sunk);
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-card);
   padding: 0.35em 0.8em;
   white-space: nowrap;
 }
 
-.tag--design { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: var(--accent-deep); }
-.tag--data-stories { background: color-mix(in srgb, var(--cat-data) 14%, transparent); color: #2c5f80; }
+.tag--graphic-design { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: var(--accent-deep); }
+/* .tag--data-stories { background: color-mix(in srgb, var(--cat-data) 14%, transparent); color: #2c5f80; } */
 .tag--printmaking { background: color-mix(in srgb, var(--cat-print) 20%, transparent); color: #8a6415; }
+.tag--data-viz { background: color-mix(in srgb, var(--cat-data) 14%, transparent); color: #2c5f80; }
+.tag--illustration { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: var(--accent-deep); }
 
 /* "see everything" card that closes a row — both references use this */
 .card--more {
@@ -511,7 +525,7 @@
   background: transparent;
   border: 1px solid var(--rule-strong);
   border-radius: var(--radius-pill);
-  padding: 0.5em 1.1em;
+  padding: 0.35em 0.75em;
   cursor: pointer;
   transition: all var(--dur) var(--ease);
 }
@@ -576,7 +590,7 @@
 }
 
 .pub__title {
-  font-size: var(--t-md);
+  font-size: var(--t-lg);
   font-weight: 600;
   line-height: 1.4;
   text-transform: none;
@@ -661,7 +675,7 @@
 .page-head__title {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: var(--t-xxl);
+  font-size: var(--t-xl);
   line-height: 1.05;
   letter-spacing: -0.02em;
   text-transform: none;
@@ -669,8 +683,8 @@
 }
 
 .page-head__lede {
-  font-size: var(--t-lg);
-  color: var(--gray);
+  font-size: var(--t-md);
+  color: var(--gray-light);
   max-width: 42rem;
   line-height: 1.45;
 }
@@ -1023,7 +1037,7 @@ figcaption {
   grid-template-columns: 12rem 1fr;
   gap: var(--s-5);
   align-items: baseline;
-  padding-block: var(--s-5);
+  padding-block: var(--s-2);
   border-top: 1px solid var(--rule);
 }
 
@@ -1033,7 +1047,7 @@ figcaption {
   font-size: var(--t-xs);
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--gray-light);
+  color: var(--gray);
   font-weight: 600;
   line-height: 1.4;
 }

@@ -36,6 +36,7 @@
   --t-xxl: clamp(2.4rem, 6vw, 4rem);
   --t-xl: clamp(1.9rem, 4vw, 2.75rem);
   --t-lg: clamp(1.35rem, 2.4vw, 1.75rem);
+  --t-xmd: clamp(1.2rem, 1.8vw, 1.5rem);
   --t-md: clamp(1.05rem, 1.4vw, 1.2rem);
   --t-base: 1.0625rem;
   --t-sm: 0.9375rem;
@@ -64,8 +65,8 @@
   --gutter: clamp(1.25rem, 5vw, 3.5rem);
 
   /* ---- form ---- */
-  --radius-pill: 999px;
-  --radius-card: 14px;
+  --radius-pill: 200px;
+  --radius-card: 5px;
   --radius-sm: 8px;
 
   --shadow-card: 0 1px 2px rgba(17, 17, 17, 0.04),
