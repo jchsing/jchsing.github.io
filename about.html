@@ -63,65 +63,117 @@
 
 <main id="main">
 
-  <section class="wrap page-head">
-    <h1 class="page-head__title">about</h1>
-    <p class="page-head__lede">PhD candidate in
+  <section class="wrap about-layout">
+
+    <div class="about-layout__main">
+      <h1 class="page-head__title">about</h1>
+      <p class="page-head__lede">PhD candidate in
       <a href="https://med.stanford.edu/epidemiology-dept.html" target="_blank" rel="noopener">Epidemiology and Population Health</a>
       at Stanford University School of Medicine; co-advised by
       <a href="https://mathewkiang.com/aboutme/" target="_blank" rel="noopener">Mathew Kiang</a> and
       <a href="https://profiles.stanford.edu/michelle-odden" target="_blank" rel="noopener">Michelle Odden</a>.</p>
-  </section>
 
-  <section class="wrap">
-
-    <dl class="about-list">
+      <dl class="about-list">
       <div class="about-list__row">
-        <dt>research areas</dt>
-        <dd class="about-list__tags">
-          <span class="tag">digital epidemiology</span>
-          <span class="tag">sleep health</span>
-          <span class="tag">big data</span>
-          <span class="tag">early-onset disease risk</span>
-        </dd>
+      <dt>research areas</dt>
+      <dd class="about-list__tags">
+      <span class="tag">digital epidemiology</span>
+      <span class="tag">sleep health</span>
+      <span class="tag">big data</span>
+      <span class="tag">early-onset disease risk</span>
+      </dd>
       </div>
 
       <div class="about-list__row">
-        <dt>dissertation research</dt>
-        <dd>Leveraging smartphone-based digital phenotyping methods to understand sleep health
-          and risk factors for early chronic disease risk in young adults.</dd>
+      <dt>dissertation research</dt>
+      <dd>Leveraging smartphone-based digital phenotyping methods to understand sleep health
+      and risk factors for early chronic disease risk in young adults.</dd>
       </div>
 
       <div class="about-list__row">
-        <dt>other interests</dt>
-        <dd>Data and visual storytelling.
-          <a class="link" href="creative.html">Check out some projects here</a>.</dd>
+      <dt>other interests</dt>
+      <dd>Data and visual storytelling.
+      <a class="link" href="creative.html">Check out some projects here</a>.</dd>
       </div>
 
       <div class="about-list__row">
-        <dt>hobbies</dt>
-        <dd>Climbing 🧗🏻‍♀️, playing music 🎻, doing ceramics 🍯, or spending quality time 🕰️
-          with friends and family.</dd>
+      <dt>hobbies</dt>
+      <dd>Climbing 🧗🏻‍♀️, playing music 🎻, doing ceramics 🍯, or spending quality time 🕰️
+      with friends and family.</dd>
       </div>
-    </dl>
+      </dl>
 
-       <div class="prose prose--wide">
+      <div class="prose prose--wide">
       <p>Feel free to reach out at
-        <a href="mailto:jchsing@stanford.edu">jchsing@stanford.edu</a>, or connect with me on
-        <a href="https://www.linkedin.com/in/julianna-hsing/" target="_blank" rel="noopener">linkedin</a> or
-        <a href="https://github.com/jchsing" target="_blank" rel="noopener">github</a>!</p>
+      <a href="mailto:jchsing@stanford.edu">jchsing@stanford.edu</a>, or connect with me on
+      <a href="https://www.linkedin.com/in/julianna-hsing/" target="_blank" rel="noopener">linkedin</a> or
+      <a href="https://github.com/jchsing" target="_blank" rel="noopener">github</a>!</p>
       </div>
     </div>
 
-    <div class="photo-strip">
-      <img src="img/about/about-1.jpg" alt="" loading="lazy">
-      <img src="img/about/about-2.jpg" alt="" loading="lazy">
-      <img src="img/about/about-3.jpg" alt="" loading="lazy">
-      <img src="img/about/about-4.jpg" alt="" loading="lazy">
-      <img src="img/about/about-5.jpg" alt="" loading="lazy">
-      <img src="img/about/about-6.jpg" alt="" loading="lazy">
-    </div>
+    <aside class="about-layout__aside">
+      <!-- click the dots (or use arrow keys / swipe) to move through the photos -->
+      <div class="carousel" id="about-photos"
+      role="group" aria-roledescription="carousel" aria-label="Photos of Julianna">
+      <div class="carousel__viewport">
+      <ul class="carousel__track">
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="1 of 6">
+      <img src="img/about/about-1.jpg" alt="" decoding="async">
+      </li>
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="2 of 6">
+      <img src="img/about/about-2.jpg" alt="" loading="lazy" decoding="async">
+      </li>
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="3 of 6">
+      <img src="img/about/about-3.jpg" alt="" loading="lazy" decoding="async">
+      </li>
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="4 of 6">
+      <img src="img/about/about-4.jpg" alt="" loading="lazy" decoding="async">
+      </li>
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="5 of 6">
+      <img src="img/about/about-5.jpg" alt="" loading="lazy" decoding="async">
+      </li>
+      <li class="carousel__slide" role="group" aria-roledescription="slide" aria-label="6 of 6">
+      <img src="img/about/about-6.jpg" alt="" loading="lazy" decoding="async">
+      </li>
+      </ul>
 
+      <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M15 18l-6-6 6-6"/>
+      </svg>
+      </button>
+      <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M9 18l6-6-6-6"/>
+      </svg>
+      </button>
+
+      <div class="carousel__dots">
+      <button class="carousel__dot" type="button" data-index="0"
+      aria-label="Show photo 1 of 6" aria-current="true"></button>
+      <button class="carousel__dot" type="button" data-index="1"
+      aria-label="Show photo 2 of 6"></button>
+      <button class="carousel__dot" type="button" data-index="2"
+      aria-label="Show photo 3 of 6"></button>
+      <button class="carousel__dot" type="button" data-index="3"
+      aria-label="Show photo 4 of 6"></button>
+      <button class="carousel__dot" type="button" data-index="4"
+      aria-label="Show photo 5 of 6"></button>
+      <button class="carousel__dot" type="button" data-index="5"
+      aria-label="Show photo 6 of 6"></button>
+      </div>
+      </div>
+      <p class="sr-only" aria-live="polite" data-carousel-status></p>
+      </div>
+    </aside>
 
   </section>
 
 </main>
+
+<script src="js/site.js"></script>
+<script src="js/carousel.js"></script>
+</body>
+</html>

@@ -1037,3 +1037,154 @@ figcaption {
   color: var(--accent-deep);
   text-decoration-color: currentColor;
 }
+
+/* --------------------------------------------------------------------------
+   photo carousel
+   -------------------------------------------------------------------------- */
+
+.carousel {
+  --carousel-w: 27rem;
+  max-width: var(--carousel-w);
+  margin: var(--s-7) auto;
+}
+
+.carousel__viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--bg-sunk);
+  box-shadow: var(--shadow-card);
+}
+
+.carousel__track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: transform 420ms var(--ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__track { transition: none; }
+}
+
+.carousel__slide {
+  flex: 0 0 100%;
+  margin: 0;
+  min-width: 0;
+}
+
+.carousel__slide img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---- dots, sitting over the foot of the photo ---- */
+.carousel__dots {
+  position: absolute;
+  left: 50%;
+  bottom: var(--s-4);
+  translate: -50% 0;
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background: rgba(17, 17, 17, 0.28);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.carousel__dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  transition: background var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.carousel__dot:hover { background: rgba(255, 255, 255, 0.85); }
+
+.carousel__dot[aria-current="true"] {
+  background: #fff;
+  transform: scale(1.35);
+}
+
+/* ---- arrows: quiet until you hover or tab to them ---- */
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.carousel__arrow svg { width: 18px; height: 18px; }
+.carousel__arrow--prev { left: var(--s-3); }
+.carousel__arrow--next { right: var(--s-3); }
+
+.carousel__viewport:hover .carousel__arrow,
+.carousel__arrow:focus-visible { opacity: 1; }
+
+.carousel__arrow:hover { background: #fff; }
+
+/* touch devices have swipe and dots; hover arrows would just sit there */
+@media (hover: none) {
+  .carousel__arrow { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   about: text left, photo carousel top-right
+   -------------------------------------------------------------------------- */
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 21rem);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;          /* pins the carousel to the top of the column */
+  padding-block: var(--s-8) var(--s-9);
+}
+
+/* grid children default to min-width:auto, which lets long words widen
+   the column; 0 keeps both halves inside their tracks */
+.about-layout__main { min-width: 0; }
+
+.about-layout__aside { position: sticky; top: 6.5rem; min-width: 0; }
+
+/* the carousel is centred on its own elsewhere; here it fills the column */
+.about-layout__aside .carousel {
+  max-width: none;
+  margin: 0;
+}
+
+/* the title sits in the grid now, so drop the old section padding */
+.about-layout .page-head__title { margin-bottom: var(--s-4); }
+
+.about-layout .about-list { margin-top: var(--s-7); }
+
+@media (max-width: 900px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    padding-block: var(--s-7) var(--s-8);
+  }
+
+  .about-layout__aside {
+    position: static;
+    max-width: 24rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+}
