@@ -528,49 +528,51 @@
    publications
    -------------------------------------------------------------------------- */
 
-.pub-year {
-  display: flex;
-  align-items: center;
-  gap: var(--s-4);
-  margin: var(--s-7) 0 var(--s-4);
-  font-family: var(--font-display);
-  font-size: var(--t-lg);
-  color: var(--gray-light);
-}
 
-.pub-year::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--rule);
-}
 
 .pub {
+  /* widen this to push the title/authors/links further from the year.
+     the year sits left-aligned in the track, so the extra width reads
+     as gap without moving the cover column. */
+  --pub-year-col: 7.5rem;
+
   display: grid;
-  grid-template-columns: 4.5rem 1fr;
+  grid-template-columns: var(--pub-year-col) 1fr;
   gap: var(--s-5);
-  padding: var(--s-5) 0;
-  border-bottom: 1px solid var(--rule);
+  align-items: start;
+  padding: var(--s-6) 0;
+  border-top: 1px solid var(--rule);
 }
 
-.pub:last-child { border-bottom: 0; }
+/* cover sits to the right, and only exists when there is one */
+.pub--with-cover { grid-template-columns: var(--pub-year-col) 1fr 9rem; }
+
+.pub__body { min-width: 0; }
+
+/* year gutter: printed once per run of the same year, blank otherwise */
+.pub__year {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--t-xl);
+  color: color-mix(in srgb, var(--gray-light) 50%, transparent);
+  line-height: 1.55;
+}
 
 .pub__cover {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--rule);
   border-radius: var(--radius-sm);
   background: var(--bg-sunk);
 }
 
-.pub__cover--none {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  color: var(--rule-strong);
+.pub__type {
+  font-size: var(--t-sm);
+  color: var(--gray-light);
+  line-height: 1.55;
+  text-transform: uppercase;
+  margin-bottom: var(--s-2);
 }
 
 .pub__title {
@@ -588,7 +590,10 @@
   margin-bottom: var(--s-2);
 }
 
-.pub__authors .me { color: var(--ink); font-weight: 650; }
+.pub__authors .me {
+  color: var(--accent);
+  font-weight: 700;
+}
 
 .pub__venue {
   font-size: var(--t-sm);
@@ -597,24 +602,54 @@
   margin-bottom: var(--s-3);
 }
 
-.pub__links { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+/* wider gap than the old pills needed, so two text links don't crowd */
+.pub__links { display: flex; flex-wrap: wrap; gap: var(--s-5); }
 
 .pub__link {
-  font-size: var(--t-xs);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-size: var(--t-sm);
   font-weight: 600;
   color: var(--gray);
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--radius-pill);
-  padding: 0.4em 0.9em;
-  transition: all var(--dur) var(--ease);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, var(--gray) 40%, transparent);
+  transition: color var(--dur) var(--ease),
+              text-decoration-color var(--dur) var(--ease);
 }
 
-.pub__link:hover { color: var(--accent); border-color: var(--accent); }
+.pub__link:hover {
+  color: var(--ink);
+  text-decoration-color: currentColor;
+}
 
-@media (max-width: 560px) {
-  .pub { grid-template-columns: 3.25rem 1fr; gap: var(--s-4); }
+/* the arrow slides on hover; excluded from the underline so it doesn't drag a tail */
+.pub__link-arrow {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform var(--dur) var(--ease);
+}
+
+.pub__link:hover .pub__link-arrow { transform: translateX(4px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .pub__link-arrow { transition: none; }
+}
+
+@media (max-width: 640px) {
+  .pub,
+  .pub--with-cover {
+    grid-template-columns: 1fr 5rem;
+    gap: var(--s-4);
+  }
+  /* year moves above the entry rather than eating a column */
+  .pub__year {
+    grid-column: 1 / -1;
+    font-size: var(--t-xs);
+  }
+  .pub__year:empty { display: none; }
 }
 
 /* --------------------------------------------------------------------------
@@ -1187,4 +1222,75 @@ figcaption {
     margin-inline: auto;
     width: 100%;
   }
+}
+
+/* --------------------------------------------------------------------------
+   cover lightbox
+   -------------------------------------------------------------------------- */
+
+.pub__cover-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+  border-radius: var(--radius-sm);
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+
+.pub__cover-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.lightbox {
+  max-width: min(92vw, 46rem);
+  max-height: 92vh;
+  padding: 0;
+  border: 0;
+  background: none;
+  overflow: visible;
+}
+
+.lightbox::backdrop {
+  background: rgba(17, 17, 17, 0.78);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.lightbox__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 92vh;
+  object-fit: contain;
+  border-radius: var(--radius-card);
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: -0.75rem;
+  right: -0.75rem;
+  z-index: 1;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--dur) var(--ease);
+}
+
+.lightbox__close svg { width: 16px; height: 16px; }
+.lightbox__close:hover { transform: scale(1.08); }
+
+@media (max-width: 560px) {
+  .lightbox { max-width: 94vw; }
+  .lightbox__close { top: -0.5rem; right: -0.5rem; }
 }

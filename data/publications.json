@@ -15,8 +15,7 @@
     "venue": "European Radiology",
     "year": 2023,
     "type": "Journal Article",
-    "url": "https://link.springer.com/article/10.1007/s00330-023-09515-1",
-    "cover": "img/pubs/european-radiology.jpg"
+    "url": "https://link.springer.com/article/10.1007/s00330-023-09515-1"
   },
   {
     "id": "hsing2022development",
@@ -33,14 +32,13 @@
   {
     "id": "altamirano2022feasibility",
     "title": "Feasibility of specimen self-collection in young children undergoing SARS-CoV-2 surveillance for in-person learning",
-    "authors": "Jonathan Altamirano, Marcela Lopez, India G Robinson, Leanne X Chun, Grace K-Y Tam, Nuzhat J Shaikh, Elisabeth G Hoyte, Yuan Jin Carrington, Shilpa G Jani, Elizabeth Y Toomarian et al.",
+    "authors": "Jonathan Altamirano, Marcela Lopez, India G Robinson, Leanne X Chun, Grace K-Y Tam, Nuzhat J Shaikh, Elisabeth G Hoyte, Yuan Jin Carrington, Shilpa G Jani, Elizabeth Y Toomarian, Julianna Hsing, et al.",
     "venue": "JAMA Network Open",
     "year": 2022,
     "type": "Journal Article",
     "volume": "5",
     "number": "2",
-    "url": "http://doi.org/10.1001/jamanetworkopen.2021.48988",
-    "cover": "img/pubs/jama-network-open.png"
+    "url": "http://doi.org/10.1001/jamanetworkopen.2021.48988"
   },
   {
     "id": "jani2022prospective",
@@ -63,8 +61,7 @@
     "volume": "23",
     "number": "2",
     "url": "https://doi.org/10.2196/23720",
-    "pdf": "pdf/papers/hsing2021influence.pdf",
-    "cover": "img/pubs/jmir.jpg"
+    "pdf": "pdf/papers/hsing2021influence.pdf"
   },
   {
     "id": "jani2021pretermconnect",
@@ -109,8 +106,7 @@
     "volume": "3",
     "number": "8",
     "url": "https://doi.org/10.1002/hep4.1392",
-    "pdf": "pdf/papers/hsing2019associations.pdf",
-    "cover": "img/pubs/hepatology-communications.jpg"
+    "pdf": "pdf/papers/hsing2019associations.pdf"
   },
   {
     "id": "kartzinel2019covariation",

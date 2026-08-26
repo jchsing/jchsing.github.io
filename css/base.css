@@ -45,10 +45,10 @@ h1, h2, h3, h4 {
   text-transform: lowercase;   /* the framer voice */
 }
 
-h1 { font-size: var(--t-xxl); }
-h2 { font-size: var(--t-xl); }
-h3 { font-size: var(--t-lg); }
-h4 { font-size: var(--t-md); }
+h1 { font-size: var(--t-xl); }
+h2 { font-size: var(--t-lg); }
+h3 { font-size: var(--t-md); }
+h4 { font-size: var(--t-sm); }
 
 /* serif display, used sparingly: the hero and page titles */
 .display {
