@@ -275,7 +275,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.9em;
-  font-size: clamp(0.86rem, 1.15vw, 0.98rem);
+  font-size: clamp(0.96rem, 1.35vw, 1rem);
   letter-spacing: 0.02em;
   color: var(--gray);
   margin-bottom: var(--s-6);
