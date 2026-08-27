@@ -546,8 +546,8 @@
 .filter:hover { color: var(--ink); border-color: var(--ink); }
 
 .filter[aria-pressed="true"] {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: var(--ink-soft);
+  border-color: var(--ink-soft);
   color: var(--bg);
 }
 
@@ -568,8 +568,10 @@
   gap: var(--s-5);
   align-items: start;
   padding: var(--s-6) 0;
-  border-top: 1px solid var(--rule);
 }
+
+/* divider only where a new year begins, not between entries within one */
+.pub--year-start { border-top: 1px solid var(--rule); }
 
 /* cover sits to the right, and only exists when there is one */
 .pub--with-cover { grid-template-columns: var(--pub-year-col) 1fr 9rem; }

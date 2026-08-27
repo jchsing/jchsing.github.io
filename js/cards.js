@@ -59,17 +59,22 @@ async function initFeatured() {
   const container = document.getElementById("featured-projects");
   if (!container) return;
 
-  const limit = Number(container.dataset.limit || 3);
   const projects = await loadProjects();
 
-  projects
-    .filter((p) => p.featured)
-    .slice(0, limit)
-    .forEach((p) => container.appendChild(projectCard(p)));
+  // hand-pick by adding "featured": true in data/projects.json.
+  // every flagged project shows, in file order — data-limit is only the
+  // fallback for when nothing is flagged.
+  const picked = projects.filter((p) => p.featured);
+  const chosen = picked.length
+    ? picked
+    : projects.slice(0, Number(container.dataset.limit || 3));
 
-  container.appendChild(
-    moreCard("want to see the rest?", "creative.html", "all creative work")
-  );
+  chosen.forEach((p) => container.appendChild(projectCard(p)));
+
+  // removed the "see all" card because the link is now a link at the bottom of the section
+  // container.appendChild(
+  //   moreCard("want to see more?", "creative.html", "all creative work")
+  // );
 }
 
 /* ---- creative portfolio: everything, with category filters ---- */

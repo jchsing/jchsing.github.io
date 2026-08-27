@@ -6,7 +6,8 @@
     "venue": "American Heart Association (AHA) EPI | Lifestyle Scientific Sessions",
     "year": 2026,
     "type": "Conference Poster",
-    "pdf": "pdf/posters/Hsing-AHA Epi Lifestyle March 2026-TU264-Smartphone-based Digital Phenotyping as a Scalable Approach to Measure Sleep Health in Emerging Adults.pdf"
+    "pdf": "pdf/posters/Hsing-AHA Epi Lifestyle March 2026-TU264-Smartphone-based Digital Phenotyping as a Scalable Approach to Measure Sleep Health in Emerging Adults.pdf", 
+    "featured": true
   },
   {
     "id": "hsing2025",
@@ -124,7 +125,8 @@
     "volume": "3",
     "number": "8",
     "url": "https://doi.org/10.1002/hep4.1392",
-    "pdf": "pdf/papers/hsing2019associations.pdf"
+    "pdf": "pdf/papers/hsing2019associations.pdf", 
+    "featured": true
   },
   {
     "id": "kartzinel2019covariation",
@@ -137,7 +139,8 @@
     "number": "47",
     "url": "https://doi.org/10.1073/pnas.1905666116",
     "pdf": "pdf/papers/kartzinel2019covariation.pdf",
-    "cover": "img/pubs/pnas.jpg"
+    "cover": "img/pubs/pnas.jpg",
+    "featured": true
   },
   {
     "id": "mclaughlin2016endoscopic",

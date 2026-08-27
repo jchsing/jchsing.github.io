@@ -26,6 +26,8 @@ function pubEntry(p, { showYear = true } = {}) {
   const el = document.createElement("article");
   const classes = ["pub"];
   if (p.cover) classes.push("pub--with-cover");
+  // only the first entry of a year run carries the divider
+  if (showYear) classes.push("pub--year-start");
   el.className = classes.join(" ");
 
   const coverAlt = `Cover of ${p.venue}`;
@@ -93,10 +95,19 @@ async function initSelectedPublications() {
   const container = document.getElementById("selected-publications");
   if (!container) return;
 
-  const limit = Number(container.dataset.limit || 3);
   const pubs = await loadPublications();
+
+  // hand-pick by adding "featured": true in data/publications.json.
+  // if any are flagged, exactly those show (in file order) and data-limit
+  // is ignored, so a flagged paper never silently goes missing.
+  // with none flagged, it falls back to the most recent data-limit entries.
+  const picked = pubs.filter((p) => p.featured);
+  const chosen = picked.length
+    ? picked
+    : pubs.slice(0, Number(container.dataset.limit || 3));
+
   let lastYear = null;
-  pubs.slice(0, limit).forEach((p) => {
+  chosen.forEach((p) => {
     const showYear = p.year !== lastYear;
     lastYear = p.year;
     container.appendChild(pubEntry(p, { showYear }));
