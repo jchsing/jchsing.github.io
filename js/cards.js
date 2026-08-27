@@ -22,7 +22,9 @@ function projectCard(p) {
 
   card.innerHTML = `
     <div class="card__media${fit}">
-      <img src="${rel(p.cover)}" alt="" loading="lazy" decoding="async">
+      <div class="card__media-inner">
+        <img src="${rel(p.cover)}" alt="" loading="lazy" decoding="async">
+      </div>
     </div>
     <div class="card__body">
       <h3 class="card__title">

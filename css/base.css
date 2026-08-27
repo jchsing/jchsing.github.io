@@ -36,6 +36,11 @@ body {
 
 img, svg, video { display: block; max-width: 100%; height: auto; }
 
+/* the UA rule for [hidden] is display:none, but any author rule that sets a
+   display (e.g. .card { display: flex }) outranks it and the element keeps
+   rendering. this makes the attribute mean what it says, everywhere. */
+[hidden] { display: none !important; }
+
 /* ---- headings ---- */
 h1, h2, h3, h4 {
   margin: 0;

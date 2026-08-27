@@ -41,7 +41,7 @@ function pubEntry(p, { showYear = true } = {}) {
     : "";
 
   const links = [];
-  if (p.url) links.push(`<a class="pub__link" href="${p.url}" target="_blank" rel="noopener">View publication${ARROW}</a>`);
+  if (p.url) links.push(`<a class="pub__link" href="${p.url}" target="_blank" rel="noopener">Open Access${ARROW}</a>`);
   if (p.pdf) {
     const href = /^https?:/.test(p.pdf) ? p.pdf : rel(p.pdf);
     links.push(`<a class="pub__link" href="${href}" target="_blank" rel="noopener">PDF${ARROW}</a>`);

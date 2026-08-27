@@ -19,9 +19,10 @@
   --accent-wash: #fdefe7;
 
   /* category accents for creative work */
-  --cat-design: #ec652b;
+  --cat-design: #28ae9a;
   --cat-data: #3f7ea6;
   --cat-print: #d9a441;
+  --cat-illustration: #ec652b;
 
   /* ---- type ---- */
   --font-display: "Cardo", "Iowan Old Style", Georgia, serif;

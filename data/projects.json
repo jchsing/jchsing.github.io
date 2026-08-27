@@ -84,12 +84,12 @@
     "slug": "visual-resume",
     "title": "visual resume",
     "blurb": "visualizing my academic and career journey through a data-driven story",
-    "category": "data stories",
+    "category": ["illustration", "data viz"],
     "cover": "img/projects/visual-resume/cover.jpg",
     "year": "2024",
     "role": "designer",
     "tools": [
-      "Illustrator",
+      "Illustrator",  
       "Procreate"
     ],
     "featured": false

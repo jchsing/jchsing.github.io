@@ -412,24 +412,35 @@
   border-color: var(--rule-strong);
 }
 
+/* padding sits out here so the card background frames the image;
+   the clipping and rounding happen on the inner wrapper, otherwise the
+   hover zoom would spill into that padding */
 .card__media {
+  padding: var(--s-3);
+  background: var(--card);
+}
+
+.card__media-inner {
   aspect-ratio: 4 / 3;
   overflow: hidden;
+  border-radius: var(--radius-card);
   background: var(--bg-sunk);
 }
 
-.card__media img {
+.card__media-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 480ms var(--ease);
 }
 
-.card:hover .card__media img { transform: scale(1.035); }
+.card:hover .card__media-inner img { transform: scale(1.035); }
 
 /* logos and illustrations shouldn't be cropped */
-.card__media--contain { background: var(--bg-sunk); }
-.card__media--contain img { object-fit: contain; padding: var(--s-5); }
+.card__media--contain .card__media-inner img {
+  object-fit: contain;
+  padding: var(--s-4);
+}
 
 .card__body {
   display: flex;
@@ -487,11 +498,13 @@
   white-space: nowrap;
 }
 
-.tag--graphic-design { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: var(--accent-deep); }
+
+
+.tag--graphic-design { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: #1c7a6c; }
 /* .tag--data-stories { background: color-mix(in srgb, var(--cat-data) 14%, transparent); color: #2c5f80; } */
 .tag--printmaking { background: color-mix(in srgb, var(--cat-print) 20%, transparent); color: #8a6415; }
 .tag--data-viz { background: color-mix(in srgb, var(--cat-data) 14%, transparent); color: #2c5f80; }
-.tag--illustration { background: color-mix(in srgb, var(--cat-design) 12%, transparent); color: var(--accent-deep); }
+.tag--illustration { background: color-mix(in srgb, var(--cat-illustration) 12%, transparent); color: #ec652b; }
 
 /* "see everything" card that closes a row — both references use this */
 .card--more {
