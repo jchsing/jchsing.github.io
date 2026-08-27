@@ -603,7 +603,7 @@
 }
 
 .pub__title {
-  font-size: var(--t-lg);
+  font-size: var(--t-xmd);
   font-weight: 600;
   line-height: 1.4;
   text-transform: none;
