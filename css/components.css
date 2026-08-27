@@ -51,7 +51,7 @@
 .site-nav a:hover { color: var(--accent); }
 
 .site-nav a[aria-current="page"],
-.site-nav li.is-active > a { color: var(--ink); font-weight: 600; }
+.site-nav li.is-active > a { color: var(--accent); font-weight: 600; }
 
 /* DISABLED: accent underline under the current nav item.
    The current page is still marked by the darker, bolder link above.
@@ -814,39 +814,14 @@ figcaption {
 
 .site-footer {
   margin-top: var(--s-9);
-  border-top: 1px solid var(--rule);
-  padding-block: var(--s-7) var(--s-6);
+  padding-block: var(--s-5);
+  text-align: center;
 }
-
-.site-footer__inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--s-6);
-}
-
-.site-footer__sign img { height: 64px; width: auto; opacity: 0.85; }
-
-.site-footer__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--s-5);
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: var(--t-sm);
-}
-
-.site-footer__links a { color: var(--gray); }
-.site-footer__links a:hover { color: var(--accent); }
 
 .site-footer__note {
-  width: 100%;
+  margin: 0;
   font-size: var(--t-xs);
   color: var(--gray-light);
-  padding-top: var(--s-5);
-  border-top: 1px solid var(--rule);
 }
 
 /* --------------------------------------------------------------------------
@@ -1067,7 +1042,7 @@ figcaption {
 
 .about-list dd {
   margin: 0;
-  font-size: var(--t-md);
+  font-size: var(--t-sm);
   color: var(--ink-soft);
   line-height: var(--lh-body);
   max-width: 42rem;
