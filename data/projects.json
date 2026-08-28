@@ -107,5 +107,35 @@
       "Procreate"
     ],
     "featured": false
+  }, 
+  {
+    "slug": "ceramics",
+    "title": "ceramics",
+    "blurb": "some things i made in clay",
+    "category": [
+      "ceramics"
+    ],
+    "cover": "img/projects/ceramics/cover.jpg",
+    "year": "2025-Present",
+    "role": "artist",
+    "tools": [
+      "hands given to me"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "music",
+    "title": "music is life",
+    "blurb": "some musical collabs i'm proud of",
+    "category": [
+      "music"
+    ],
+    "cover": "img/projects/music/cover.jpg",
+    "year": "since 2004",
+    "role": "musician",
+    "tools": [
+      "just me and my violin"
+    ],
+    "featured": false
   }
 ]

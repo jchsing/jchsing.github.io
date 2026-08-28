@@ -1158,8 +1158,8 @@ figcaption {
   position: absolute;
   top: 50%;
   translate: 0 -50%;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   display: grid;
   place-items: center;
   border: 0;
